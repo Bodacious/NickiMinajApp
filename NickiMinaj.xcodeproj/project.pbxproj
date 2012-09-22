@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86B1185916071E1700FAA944 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B1185816071E1700FAA944 /* libz.dylib */; };
+		86CF32F71605D84E000531A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86CF32F61605D84E000531A2 /* UIKit.framework */; };
+		86CF32F91605D84E000531A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86CF32F81605D84E000531A2 /* Foundation.framework */; };
+		86CF32FB1605D84E000531A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86CF32FA1605D84E000531A2 /* CoreGraphics.framework */; };
+		86CF33011605D84E000531A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86CF32FF1605D84E000531A2 /* InfoPlist.strings */; };
+		86CF33031605D84E000531A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CF33021605D84E000531A2 /* main.m */; };
+		86CF33071605D84E000531A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CF33061605D84E000531A2 /* AppDelegate.m */; };
+		86CF330A1605D84E000531A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CF33091605D84E000531A2 /* ViewController.m */; };
+		86CF330D1605D84E000531A2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86CF330B1605D84E000531A2 /* ViewController.xib */; };
+		86CF33141605D8A9000531A2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 86CF33131605D8A9000531A2 /* Icon.png */; };
+		86CF33161605D8AB000531A2 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86CF33151605D8AB000531A2 /* Icon@2x.png */; };
+		86CF33181605D8C1000531A2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86CF33171605D8C1000531A2 /* AVFoundation.framework */; };
+		86CF33261605DAC6000531A2 /* UIColor+CustomColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CF33251605DAC6000531A2 /* UIColor+CustomColors.m */; };
+		86F18D991606285200E8E1A1 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 86F18D981606285200E8E1A1 /* Background.png */; };
+		86F18D9D1606285F00E8E1A1 /* greenButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 86F18D9A1606285F00E8E1A1 /* greenButton.png */; };
+		86F18D9E1606285F00E8E1A1 /* Pound the Alarm.caf in Resources */ = {isa = PBXBuildFile; fileRef = 86F18D9B1606285F00E8E1A1 /* Pound the Alarm.caf */; };
+		86F18D9F1606285F00E8E1A1 /* redButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 86F18D9C1606285F00E8E1A1 /* redButton.png */; };
+		86F18DA116062D5A00E8E1A1 /* restart.png in Resources */ = {isa = PBXBuildFile; fileRef = 86F18DA016062D5A00E8E1A1 /* restart.png */; };
+		86F18DA51606353200E8E1A1 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F18DA31606353100E8E1A1 /* MessageViewController.m */; };
+		86F18DA61606353200E8E1A1 /* MessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86F18DA41606353100E8E1A1 /* MessageViewController.xib */; };
+		86F18DA816063F8A00E8E1A1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F18DA716063F8A00E8E1A1 /* QuartzCore.framework */; };
+		86F18DAB160641A100E8E1A1 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 86F18DA9160641A100E8E1A1 /* close.png */; };
+		86F18DAC160641A100E8E1A1 /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86F18DAA160641A100E8E1A1 /* close@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		86B1185816071E1700FAA944 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		86CF32F21605D84E000531A2 /* Nicki Minaj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nicki Minaj.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86CF32F61605D84E000531A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		86CF32F81605D84E000531A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		86CF32FA1605D84E000531A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		86CF32FE1605D84E000531A2 /* NickiMinaj-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NickiMinaj-Info.plist"; sourceTree = "<group>"; };
+		86CF33001605D84E000531A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		86CF33021605D84E000531A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86CF33041605D84E000531A2 /* NickiMinaj-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NickiMinaj-Prefix.pch"; sourceTree = "<group>"; };
+		86CF33051605D84E000531A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		86CF33061605D84E000531A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		86CF33081605D84E000531A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		86CF33091605D84E000531A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		86CF330C1605D84E000531A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		86CF33131605D8A9000531A2 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		86CF33151605D8AB000531A2 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		86CF33171605D8C1000531A2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		86CF33241605DAC6000531A2 /* UIColor+CustomColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CustomColors.h"; sourceTree = "<group>"; };
+		86CF33251605DAC6000531A2 /* UIColor+CustomColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CustomColors.m"; sourceTree = "<group>"; };
+		86F18D981606285200E8E1A1 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Background.png; path = NickiMinaj/Background.png; sourceTree = "<group>"; };
+		86F18D9A1606285F00E8E1A1 /* greenButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = greenButton.png; path = NickiMinaj/greenButton.png; sourceTree = "<group>"; };
+		86F18D9B1606285F00E8E1A1 /* Pound the Alarm.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pound the Alarm.caf"; path = "NickiMinaj/Pound the Alarm.caf"; sourceTree = "<group>"; };
+		86F18D9C1606285F00E8E1A1 /* redButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redButton.png; path = NickiMinaj/redButton.png; sourceTree = "<group>"; };
+		86F18DA016062D5A00E8E1A1 /* restart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = restart.png; path = NickiMinaj/restart.png; sourceTree = "<group>"; };
+		86F18DA21606353100E8E1A1 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		86F18DA31606353100E8E1A1 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		86F18DA41606353100E8E1A1 /* MessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageViewController.xib; sourceTree = "<group>"; };
+		86F18DA716063F8A00E8E1A1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		86F18DA9160641A100E8E1A1 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = close.png; path = NickiMinaj/close.png; sourceTree = "<group>"; };
+		86F18DAA160641A100E8E1A1 /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "close@2x.png"; path = "NickiMinaj/close@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86CF32EF1605D84E000531A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B1185916071E1700FAA944 /* libz.dylib in Frameworks */,
+				86F18DA816063F8A00E8E1A1 /* QuartzCore.framework in Frameworks */,
+				86CF33181605D8C1000531A2 /* AVFoundation.framework in Frameworks */,
+				86CF32F71605D84E000531A2 /* UIKit.framework in Frameworks */,
+				86CF32F91605D84E000531A2 /* Foundation.framework in Frameworks */,
+				86CF32FB1605D84E000531A2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86CF32E71605D84E000531A2 = {
+			isa = PBXGroup;
+			children = (
+				86CF331B1605D935000531A2 /* Assets */,
+				86CF32FC1605D84E000531A2 /* NickiMinaj */,
+				86CF32F51605D84E000531A2 /* Frameworks */,
+				86CF32F31605D84E000531A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86CF32F31605D84E000531A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86CF32F21605D84E000531A2 /* Nicki Minaj.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86CF32F51605D84E000531A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86F18DA716063F8A00E8E1A1 /* QuartzCore.framework */,
+				86CF33171605D8C1000531A2 /* AVFoundation.framework */,
+				86CF32F61605D84E000531A2 /* UIKit.framework */,
+				86CF32F81605D84E000531A2 /* Foundation.framework */,
+				86CF32FA1605D84E000531A2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86CF32FC1605D84E000531A2 /* NickiMinaj */ = {
+			isa = PBXGroup;
+			children = (
+				86CF33051605D84E000531A2 /* AppDelegate.h */,
+				86CF33061605D84E000531A2 /* AppDelegate.m */,
+				86CF33241605DAC6000531A2 /* UIColor+CustomColors.h */,
+				86CF33251605DAC6000531A2 /* UIColor+CustomColors.m */,
+				86F18DA21606353100E8E1A1 /* MessageViewController.h */,
+				86F18DA31606353100E8E1A1 /* MessageViewController.m */,
+				86F18DA41606353100E8E1A1 /* MessageViewController.xib */,
+				86CF33081605D84E000531A2 /* ViewController.h */,
+				86CF33091605D84E000531A2 /* ViewController.m */,
+				86CF330B1605D84E000531A2 /* ViewController.xib */,
+				86CF32FD1605D84E000531A2 /* Supporting Files */,
+			);
+			path = NickiMinaj;
+			sourceTree = "<group>";
+		};
+		86CF32FD1605D84E000531A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86B1185816071E1700FAA944 /* libz.dylib */,
+				86CF32FE1605D84E000531A2 /* NickiMinaj-Info.plist */,
+				86CF32FF1605D84E000531A2 /* InfoPlist.strings */,
+				86CF33021605D84E000531A2 /* main.m */,
+				86CF33041605D84E000531A2 /* NickiMinaj-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86CF331B1605D935000531A2 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				86F18DA9160641A100E8E1A1 /* close.png */,
+				86F18DAA160641A100E8E1A1 /* close@2x.png */,
+				86F18DA016062D5A00E8E1A1 /* restart.png */,
+				86F18D9A1606285F00E8E1A1 /* greenButton.png */,
+				86F18D9B1606285F00E8E1A1 /* Pound the Alarm.caf */,
+				86F18D9C1606285F00E8E1A1 /* redButton.png */,
+				86F18D981606285200E8E1A1 /* Background.png */,
+				86CF33151605D8AB000531A2 /* Icon@2x.png */,
+				86CF33131605D8A9000531A2 /* Icon.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86CF32F11605D84E000531A2 /* Nicki Minaj */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86CF33101605D84E000531A2 /* Build configuration list for PBXNativeTarget "Nicki Minaj" */;
+			buildPhases = (
+				86CF32EE1605D84E000531A2 /* Sources */,
+				86CF32EF1605D84E000531A2 /* Frameworks */,
+				86CF32F01605D84E000531A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nicki Minaj";
+			productName = NickiMinaj;
+			productReference = 86CF32F21605D84E000531A2 /* Nicki Minaj.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86CF32E91605D84E000531A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Katana Code";
+			};
+			buildConfigurationList = 86CF32EC1605D84E000531A2 /* Build configuration list for PBXProject "NickiMinaj" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 86CF32E71605D84E000531A2;
+			productRefGroup = 86CF32F31605D84E000531A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86CF32F11605D84E000531A2 /* Nicki Minaj */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86CF32F01605D84E000531A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86CF33011605D84E000531A2 /* InfoPlist.strings in Resources */,
+				86CF330D1605D84E000531A2 /* ViewController.xib in Resources */,
+				86CF33141605D8A9000531A2 /* Icon.png in Resources */,
+				86CF33161605D8AB000531A2 /* Icon@2x.png in Resources */,
+				86F18D991606285200E8E1A1 /* Background.png in Resources */,
+				86F18D9D1606285F00E8E1A1 /* greenButton.png in Resources */,
+				86F18D9E1606285F00E8E1A1 /* Pound the Alarm.caf in Resources */,
+				86F18D9F1606285F00E8E1A1 /* redButton.png in Resources */,
+				86F18DA116062D5A00E8E1A1 /* restart.png in Resources */,
+				86F18DA61606353200E8E1A1 /* MessageViewController.xib in Resources */,
+				86F18DAB160641A100E8E1A1 /* close.png in Resources */,
+				86F18DAC160641A100E8E1A1 /* close@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86CF32EE1605D84E000531A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86CF33031605D84E000531A2 /* main.m in Sources */,
+				86CF33071605D84E000531A2 /* AppDelegate.m in Sources */,
+				86CF330A1605D84E000531A2 /* ViewController.m in Sources */,
+				86CF33261605DAC6000531A2 /* UIColor+CustomColors.m in Sources */,
+				86F18DA51606353200E8E1A1 /* MessageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		86CF32FF1605D84E000531A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86CF33001605D84E000531A2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		86CF330B1605D84E000531A2 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86CF330C1605D84E000531A2 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86CF330E1605D84E000531A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		86CF330F1605D84E000531A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Katana Code Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Katana Code Ltd.";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "B195463B-FF4F-4327-BDEF-83461B959911";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B195463B-FF4F-4327-BDEF-83461B959911";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86CF33111605D84E000531A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NickiMinaj/NickiMinaj-Prefix.pch";
+				INFOPLIST_FILE = "NickiMinaj/NickiMinaj-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/NickiMinaj\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		86CF33121605D84E000531A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Katana Code Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Katana Code Ltd.";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NickiMinaj/NickiMinaj-Prefix.pch";
+				INFOPLIST_FILE = "NickiMinaj/NickiMinaj-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/NickiMinaj\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "87895ECB-E11F-4D79-ABF9-35AC51834EC5";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "87895ECB-E11F-4D79-ABF9-35AC51834EC5";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86CF32EC1605D84E000531A2 /* Build configuration list for PBXProject "NickiMinaj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86CF330E1605D84E000531A2 /* Debug */,
+				86CF330F1605D84E000531A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86CF33101605D84E000531A2 /* Build configuration list for PBXNativeTarget "Nicki Minaj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86CF33111605D84E000531A2 /* Debug */,
+				86CF33121605D84E000531A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86CF32E91605D84E000531A2 /* Project object */;
+}
